@@ -121,8 +121,6 @@ After booting pfSense, option `1` (Assign Interfaces) was selected from the cons
 - **LAN** → em1
 - **OPT1** → em2
 
-*(screenshot)*
-
 ---
 
 ## Configuring Interfaces in the Web GUI
@@ -140,8 +138,6 @@ Each interface was configured under **Interfaces** in the pfSense web GUI at `ht
 - **IPv4 Configuration:** Static
 - **IP Address:** 192.168.3.1 / 24
 
-*(screenshot)*
-
 ---
 
 ## Enabling DHCP on Both Subnets
@@ -151,7 +147,6 @@ DHCP was enabled for each subnet under **Services → DHCP Server**:
 - **LinuxMachines:** 192.168.2.100 – 192.168.2.200
 - **WindowsMachines:** 192.168.3.100 – 192.168.3.200
 
-*(screenshot)*
 
 ---
 
