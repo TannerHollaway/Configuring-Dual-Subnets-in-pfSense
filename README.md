@@ -29,12 +29,11 @@ The goal of this lab was to expand the existing pfSense firewall into a segmente
 
 When adding the third NIC to pfSense in VirtualBox, the Adapter Type field was left at default. This was caught before booting and corrected to **Intel PRO/1000 MT Desktop** to match Adapter 2 and avoid NIC detection issues in pfSense.
 
-[![Adapter 3 missing type](screenshots/adapter3-windowsmachines-config.png)](screenshots/adapter3-windowsmachines-config.png)
 [![Adapter 3 fixed](screenshots/adapter3-intel-nic-fix.png)](screenshots/adapter3-intel-nic-fix.png)
 
 ---
 
-**Issue 2: VLAN approach attempted and abandoned**
+$$\huge \text{Issue 2: VLAN approach attempted and abandoned }$$
 
 The initial plan was to use pfSense's native VLAN support on a single trunk interface (em1), creating VLAN sub-interfaces em1.10 (LinuxMachines) and em1.20 (WindowsMachines) — avoiding the need for a third NIC entirely.
 
